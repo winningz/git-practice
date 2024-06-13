@@ -7,8 +7,10 @@ import numpy as np
 이미지 업로드로 받으면/
 그 이미지를 다시 패키징 파일로 넘겨주고!(.png 검색 조건으로!)
 결과값을 뱉어!
+# 실행은 'python app.py' 이걸로 하면 됨
 '''
 
+# 20240613_추가
 model = pickle.load(open('iri.pkl', 'rb'))
 
 app = Flask(__name__)
